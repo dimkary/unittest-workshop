@@ -1,0 +1,4 @@
+tasks:
+  - name: Adding python testing dependencies
+    before: echo 'Adding pip packages'
+    init: pip install -r requirements.txt
