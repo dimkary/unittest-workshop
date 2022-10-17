@@ -15,7 +15,6 @@ class Triangle(Shape):
             raise ValueError('Angle must be between 0 and 180')
 
         self._a = float(a)
-        print(self._a)
         self._b = float(b)
         self._C = float(C)
 
