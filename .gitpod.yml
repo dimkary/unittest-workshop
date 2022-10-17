@@ -2,7 +2,6 @@ tasks:
   - name: Adding python testing dependencies
     before: echo 'Adding pip packages'
     init: pip install -r requirements.txt
-    after: clear
 
   - name: Start web server
     init: python -m http.server 8000
