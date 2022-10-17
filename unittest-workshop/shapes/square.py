@@ -10,3 +10,9 @@ class Square(Shape):
 
     def area(self) -> float:
         return math.pow(self._length, 2)
+
+    def perimeter(self) -> float:
+        return self._length * 4
+
+    def diagonal(self) -> float:
+        return math.sqrt(2*self._length*self._length)
