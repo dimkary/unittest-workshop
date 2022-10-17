@@ -27,9 +27,9 @@ class TestSquare(unittest.TestCase):
     def test_diagonal_negative(self):
         square = Square(10)
         diagonal = square.diagonal()
-        self.assertNotEqual(diagonal, 14.142135623731)
+        self.assertNotEqual(diagonal, 14.1421)
 
     def test_diagonal_positive(self):
         square = Square(10)
         diagonal = square.diagonal()
-        self.assertAlmostEqual(diagonal, 14.1421, places=4)
+        self.assertAlmostEqual(diagonal, 14.1421, places=3)
