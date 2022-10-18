@@ -40,37 +40,13 @@ class Triangle(Shape):
         s = (self._a + self._b + self._c) / 2
         return math.sqrt(s*(s-self._a)*(s-self._b)*(s-self._c))
 
-    def length_a(self):
-        return self._a
-
-    def length_b(self):
-        return self._b
-
-    def length_c(self):
-        return self._c
-
-    def angle_A(self):
-        return self._A
-
-    def angle_B(self):
-        return self._B
-
-    def angle_C(self):
-        return self._C
-
     def perimeter(self) -> float:
         return self._a + self._b + self._c
 
     def isRight(self):
-        return (round(x, 4) == 90 for x in [self.angle_A(), self.angle_B(), self.angle_C()])
+        return (round(x, 4) == 90 for x in [self._A, self._B, self._C])
 
     def isEquilateral(self):
         angles = [round(x, 4)
-                  for x in (self.angle_A(), self.angle_B(), self.angle_C())]
+                  for x in (self._A, self._B, self._C)]
         return angles[0] == angles[1] == angles[2] == 60
-
-    def isIsosceles(self):
-        return len({self._a, self._b, self._c}) < 3
-
-    def isScalene(self):
-        return not self.isIsosceles()
