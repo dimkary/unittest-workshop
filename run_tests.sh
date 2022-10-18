@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /workspace/unittest-workshop 2>/dev/null 
+cd /workspace/unittest-workshop/unittest-workshop 2>/dev/null 
 
 python3 -m coverage run -m unittest -v
 python3 -m coverage report
