@@ -26,31 +26,3 @@ class TestTriangle(unittest.TestCase):
 
         Triangle calculator for cross reference: https://www.calculator.net/triangle-calculator.html
     '''
-
-    def test_area(self):
-        self.assertAlmostEqual(
-            self.default_Triangle.area(), 0.8660, places=3
-        )
-
-    def test_perimeter(self):
-        self.assertAlmostEqual(
-            self.default_Triangle.perimeter(), 4.73205, places=3
-        )
-
-    def test_right(self):
-        self.assertTrue(
-            self.default_Triangle.isRight()
-        )
-
-    def test_equilateral(self):
-        self.assertTrue(
-            self.equilateral_Triangle.isEquilateral()
-        )
-
-    def test_create_square_negative_length(self):
-        with self.assertRaises(ValueError):
-            Triangle(-1, 1, 40)
-
-    def test_create_square_negative_angle(self):
-        with self.assertRaises(ValueError):
-            Triangle(1, 1, -40)
