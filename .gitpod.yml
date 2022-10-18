@@ -12,6 +12,7 @@ tasks:
     command: |
       chmod 777 /workspace/unittest-workshop/run_tests.sh
       clear
+      cd unittest-workshop
 
 ports:
   - port: 8000
