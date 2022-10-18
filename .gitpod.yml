@@ -2,18 +2,16 @@ tasks:
   - name: Adding python testing dependencies
     before: echo 'Adding pip packages'
     init: pip install -r requirements.txt
-
+    command: exit
+    
   - name: Start web server
     init: python -m http.server 8000
 
-  - name: Run tests alias
+  - name: Create run_test alias
     init: alias run_tests="/workspace/unittest-workshop/run_tests.sh"
-
-  - name: Chang permissions for script
-    init: chmod 777 /workspace/unittest-workshop/run_tests.sh
-
-  - name: Clear screen
-    init: clear
+    command: |
+      chmod 777 /workspace/unittest-workshop/run_tests.sh
+      clear
 
 ports:
   - port: 8000
