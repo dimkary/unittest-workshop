@@ -9,6 +9,12 @@ tasks:
   - name: Run tests alias
     init: alias run_tests="/workspace/unittest-workshop/run_tests.sh"
 
+  - name: Chang permissions for script
+    init: chmod 777 /workspace/unittest-workshop/run_tests.sh
+
+  - name: Clear screen
+    init: clear
+
 ports:
   - port: 8000
     onOpen: open-preview
