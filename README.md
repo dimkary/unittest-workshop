@@ -33,7 +33,11 @@ In the tests file are provided already 2 triangles, enough to test all the funct
 </div>
   
 ## Snippets
+### Triangle functions
 
-  ```sh
-  pip install fastapi[all]
+  ```py
+  def area(self): # Returns the area of the triangle
+  ```
+  ```py
+  def perimeter(self): # Returns the perimeter of the triangle
   ```
