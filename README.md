@@ -25,10 +25,11 @@ At the same level there is a folder names **test**, in which there are 3 files t
 
 ### Check coverage
 After adding new tests we want to check if they are implemented succesfully, and if the coverage has increased. From the created Gitpod environement you can run the command **run_tests** in the terminal. This will run the unittests, create the coverage report and generate an html file, which can be viewed in the idea preview browser (Simple Broswer). A coverage report on the browser should look like the picture below:
+<div align="center">
   <a>
-    <img src="images/coverage_snap.jpg" alt="coverage" width="300" height="250">
+    <img src="images/coverage_snap.jpg" alt="coverage" width="600" height="300">
   </a>
-
+</div>
 ### Sample triangles
 In the **test_triangle** file, there are already 2 triangles, enough to test all the functionality of the library. These are the *right_Triangle* and *equilateral_Triangle*, for which you can check their geometry below. It is possible to create new triangles for your test if you wish.
 <div align="center">
