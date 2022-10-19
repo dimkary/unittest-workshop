@@ -30,14 +30,14 @@ class TestTriangle(unittest.TestCase):
     def test_line_32(self):
         pass
     
-    def test_line_57(self):
+    def test_triangle_area(self):
         pass
     
-    def test_line_61(self):
+    def test_triangle_perimeter(self):
         pass
     
-    def test_line_64(self):
+    def test_triangle_isRight(self):
         pass
     
-    def test_line_67(self):
+    def test_triangle_isEquilateral(self):
         pass
