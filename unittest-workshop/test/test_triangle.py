@@ -3,8 +3,9 @@ from shapes.triangle import Triangle
 
 
 class TestTriangle(unittest.TestCase):
-
-    default_Triangle = Triangle(1, 2, 60)  # also right,third length ~ 1.73205
+    
+    # Sample triangles from the document
+    right_Triangle = Triangle(1, 2, 60)  # third length ~ 1.73205
     equilateral_Triangle = Triangle(1, 1, 60)
 
     '''
