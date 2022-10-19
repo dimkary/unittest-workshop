@@ -7,6 +7,24 @@ class Triangle(Shape):
         '''
         Define a triangle by providing the length of two
         sides, and the angle between them
+        
+        Constructor arguments:
+            a : Length of side a
+            b : Length of side b
+            C : Angle between side a and b
+        Attributes:
+            self._a : Length of side a
+            self._b : Length of side b
+            self._c : Length of side c (Calculated during constuction)
+            self._A : Angle between sides _b and _c
+            self._B : Angle between sides _a and _c
+            self._C : Angle between sides _a and _b
+        Methods:
+            self.area
+            self.perimeter
+            self.isRight
+            self.isEquilateral
+            
         '''
         if any(n < 0 for n in [a, b]):
             raise ValueError('The lengths cannot be negative')
