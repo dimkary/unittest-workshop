@@ -17,7 +17,7 @@
 This project is set up as a simple and fun excercise to write your own unittest, to test a triangle library!!! The goal is to use the skeleton code to add your test cases, until **100% coverage** is achieved. Of course more tests to cover any weird edge cases are welcome.
 
 ## Instructions
-Open the project in Gitpod by going into the link: https://github.com/dimkary/unittest-workshop
+Open the project in Gitpod by going into the link: https://www.gitpod.io/#https://github.com/dimkary/unittest-workshop
 
 The folder **shapes** contain an 4 libraries: **shape, square, circle** and **triangle**. These are used to create a respective object and provide method to calculate certain geometries (area, parimeter etc.).
 
