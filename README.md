@@ -41,21 +41,21 @@ In the **test_triangle** file, there are already 2 triangles, enough to test all
 </div>
 
 ## Snippets
-### Triangle functions
+### Triangle methods
 
-These functions would need to be tested at least once:
+These methods would need to be tested at least once:
 
   ```py
-  def area(self): # Returns the area of the triangle
+  area(self): # Returns the area of the triangle
   ```
   ```py
-  def perimeter(self): # Returns the perimeter of the triangle
+  perimeter(self): # Returns the perimeter of the triangle
   ```
   ```py
-  def isRight(self): # Returns True if one of the angles is 90 degrees
+  isRight(self): # Returns True if one of the angles is 90 degrees
   ```
   ```py
-  def isEquilateral(self): # Returns True if all edges are of equal length
+  isEquilateral(self): # Returns True if all edges are of equal length
   ```
    
 ### Sample test
