@@ -19,15 +19,15 @@ This project is set up as a simple and fun excercise to write your own unittest,
 ## Instructions
 Open the project in Gitpod by going into the link: https://www.gitpod.io/#https://github.com/dimkary/unittest-workshop
 
-The folder **shapes** contain an 4 libraries: **shape, square, circle** and **triangle**. These are used to create a respective object and provide method to calculate certain geometries (area, parimeter etc.).
+The folder **shapes** contain an 4 libraries: **shape, square, circle** and **triangle**. These are used to create a respective object and provide method to calculate certain geometries (area, perimeter etc.).
 
-At the same level there is a folder names **tests**, in which there are 3 files that contain the tests for each respective shape. The goal is to add tests to the **tests_triangle** file to cover as much of the triangle library as possible. The **tests_circle** and **tests_square** files contain already implemented tests to be used as examples.
+At the same level there is a folder names **test**, in which there are 3 files that contain the tests for each respective shape. The goal is to add tests to the **test_triangle** file to cover as much of the triangle library as possible. The **test_circle** and **test_square** files contain already implemented tests to be used as examples.
 
 ### Check coverage
-After adding new tests we want to check if they are implemented succesfully, and if the coverage has increased. From the created Gitpod environement you can press the command **run_tests**. This will run the unittests, create the coverage report and generate an html file, which can be viewed in the idea preview browser.
+After adding new tests we want to check if they are implemented succesfully, and if the coverage has increased. From the created Gitpod environement you can run the command **run_tests** in the terminal. This will run the unittests, create the coverage report and generate an html file, which can be viewed in the idea preview browser (Simple Broswer).
 
 ### Sample triangles
-In the tests file are provided already 2 triangles, enough to test all the functionality of the library. These are the *default_Triangle* and *equilateral_Triangle*, for which you can check their geometry below. It is possible to create new triangles for your test if you wish.
+In the **test_triangle** file, there are already 2 triangles, enough to test all the functionality of the library. These are the *default_Triangle* and *equilateral_Triangle*, for which you can check their geometry below. It is possible to create new triangles for your test if you wish.
 <div align="center">
   <a>
     <img src="images/sample_triangles.png" alt="sample triangles" align="center"  width="625" height="250">
