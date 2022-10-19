@@ -43,7 +43,7 @@ class Triangle(Shape):
         return self._a + self._b + self._c
 
     def isRight(self):
-        return (round(x, 4) == 90 for x in [self._A, self._B, self._C])
+        return True in [round(x, 4) == 90 for x in [self._A, self._B, self._C]]
 
     def isEquilateral(self):
         angles = [round(x, 4)
