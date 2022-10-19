@@ -24,7 +24,10 @@ The folder **shapes** contain an 4 libraries: **shape, square, circle** and **tr
 At the same level there is a folder names **test**, in which there are 3 files that contain the tests for each respective shape. The goal is to add tests to the **test_triangle** file to cover as much of the triangle library as possible. The **test_circle** and **test_square** files contain already implemented tests to be used as examples.
 
 ### Check coverage
-After adding new tests we want to check if they are implemented succesfully, and if the coverage has increased. From the created Gitpod environement you can run the command **run_tests** in the terminal. This will run the unittests, create the coverage report and generate an html file, which can be viewed in the idea preview browser (Simple Broswer).
+After adding new tests we want to check if they are implemented succesfully, and if the coverage has increased. From the created Gitpod environement you can run the command **run_tests** in the terminal. This will run the unittests, create the coverage report and generate an html file, which can be viewed in the idea preview browser (Simple Broswer). A coverage report on the browser should look like the picture below:
+  <a>
+    <img src="images/coverage_snap.jpg" alt="coverage" width="300" height="250">
+  </a>
 
 ### Sample triangles
 In the **test_triangle** file, there are already 2 triangles, enough to test all the functionality of the library. These are the *right_Triangle* and *equilateral_Triangle*, for which you can check their geometry below. It is possible to create new triangles for your test if you wish.
