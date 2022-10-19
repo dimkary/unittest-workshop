@@ -27,7 +27,7 @@ At the same level there is a folder names **test**, in which there are 3 files t
 After adding new tests we want to check if they are implemented succesfully, and if the coverage has increased. From the created Gitpod environement you can run the command **run_tests** in the terminal. This will run the unittests, create the coverage report and generate an html file, which can be viewed in the idea preview browser (Simple Broswer). A coverage report on the browser should look like the picture below:
 <div align="center">
   <a>
-    <img src="images/coverage_snap.jpg" alt="coverage" width="600" height="300">
+    <img src="images/coverage_snap.jpg" alt="coverage" width="500" height="300">
   </a>
 </div>
 ### Sample triangles
