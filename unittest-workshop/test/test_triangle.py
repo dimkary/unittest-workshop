@@ -5,8 +5,8 @@ from shapes.triangle import Triangle
 class TestTriangle(unittest.TestCase):
     
     # Sample triangles from the document
-    right_Triangle = Triangle(1, 2, 60)  # third length ~ 1.73205
-    equilateral_Triangle = Triangle(1, 1, 60)
+    right_Triangle = Triangle(1, 2, 60)  # length c ~ 1.73205, area ~0.86603
+    equilateral_Triangle = Triangle(1, 1, 60) # length c ~ 1, area ~0.43301
 
     '''
     Define all the tests you wish to write below
