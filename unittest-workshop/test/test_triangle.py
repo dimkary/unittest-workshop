@@ -24,3 +24,7 @@ class TestTriangle(unittest.TestCase):
 
         Triangle calculator for cross reference: https://www.calculator.net/triangle-calculator.html
     '''
+    def test_line_30(self):
+        pass
+    def test_line_32(self):
+        pass
