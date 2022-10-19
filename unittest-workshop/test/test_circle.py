@@ -1,14 +1,8 @@
 import unittest
-import math
-
 from shapes.circle import Circle
-from shapes.shape import Shape
 
 
 class TestCircle(unittest.TestCase):
-    def test_circle_instance_of_shape(self):
-        circle = Circle(10)
-        self.assertIsInstance(circle, Shape)
 
     def test_create_circle_negative_radius(self):
         with self.assertRaises(ValueError):

@@ -1,8 +1,5 @@
-from email.policy import default
 import unittest
-
 from shapes.triangle import Triangle
-from shapes.shape import Shape
 
 
 class TestTriangle(unittest.TestCase):
