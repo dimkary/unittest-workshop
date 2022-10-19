@@ -14,6 +14,8 @@
 
 ## Description
 
+This project is set up as a simple and fun excercise to write your own unittest, to test a triangle library!!! The goal is to use the skeleton code to add your test cases, until # 100% coverage # is achieved. Of course more tests to cover any weird edge cases are welcome.
+
 ## Instructions
 
 ## Snippets
