@@ -28,7 +28,7 @@ After adding new tests we want to check if they are implemented succesfully, and
 In the tests file are provided already 2 triangles, enough to test all the functionality of the library. These are the *default_Triangle* and *equilateral_Triangle*, for which you can check their geometry below. It is possible to create new triangles for your test if you wish.
 
   <a>
-    <img src="images/sample_triangles.png" alt="Logo" width="300" height="250">
+    <img src="images/sample_triangles.png" alt="Logo" width="600" height="250">
   </a>
   
   
