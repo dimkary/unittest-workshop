@@ -34,6 +34,7 @@ In the tests file are provided already 2 triangles, enough to test all the funct
   
 ## Snippets
 ### Triangle functions
+These functions would need to be tested at least once:
 
   ```py
   def area(self): # Returns the area of the triangle
@@ -41,3 +42,28 @@ In the tests file are provided already 2 triangles, enough to test all the funct
   ```py
   def perimeter(self): # Returns the perimeter of the triangle
   ```
+  ```py
+  def isRight(self): # Returns True if one of the angles is 90 degrees
+  ```
+  ```py
+  def isEquilateral(self): # Returns True if all edges are of equal length
+  ```
+   
+### Sample test
+The tests would need to be defined **inside** the class _TestTriangle_. The tests need to be defined as function (with the **def**
+ keyword) and pass the class instance as argument (with the **self** argument). If you want to use the triangles already defined, you would need to use the **self** reference before the function to be tested. Some of the assertions to be used are **assertAlmostEqual** (to test if the value is what is expected), **assertTrue** (to test whenever we expect a positive boolean value) and **assertRaises** (to check if the code fails when it is expected to fail). Examples:
+ ```py
+     def test_create_square_negative_length(self):
+        with self.assertRaises(ValueError):
+            square = Square(-1)
+ ```
+ ```py
+    def test_diagonal_positive(self):
+        square = Square(10)
+        diagonal = square.diagonal()
+        self.assertAlmostEqual(diagonal, 14.1421, places=3)
+ ```
+ ```py
+     def test_trivial_true(self):
+         self.assertTrue(5 == 5)
+ ```
