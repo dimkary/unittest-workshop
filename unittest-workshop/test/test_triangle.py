@@ -26,5 +26,18 @@ class TestTriangle(unittest.TestCase):
     '''
     def test_line_30(self):
         pass
+    
     def test_line_32(self):
+        pass
+    
+    def test_line_57(self):
+        pass
+    
+    def test_line_61(self):
+        pass
+    
+    def test_line_64(self):
+        pass
+    
+    def test_line_67(self):
         pass
