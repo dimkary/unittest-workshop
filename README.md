@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="images/triangle.jpg" alt="Logo" width="300" height="200">
+    <img src="images/triangle.jpg" alt="Logo" width="300" height="250">
   </a>
 
   <h3 align="center">Unittest workshop with Python!!!</h3>
