@@ -1,6 +1,7 @@
 import math
 from .shape import Shape
 
+
 class Triangle(Shape):
     def __init__(self, a, b, C: float) -> None:
         '''
