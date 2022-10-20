@@ -52,6 +52,25 @@ In order to construct your triangle using the Triangle class, you need to provid
 </div>
 
 **Note:** You can complete the exercise just by using the provided sample trianles (see above).
+### Triangle attributes:
+  ```py
+  My_awesome_triangle._a # Returns the length of side a
+  ```
+  ```py
+  My_awesome_triangle._b # Returns the length of side b
+  ```
+  ```py
+  My_awesome_triangle._c # Returns the length of side c
+  ```
+  ```py
+  My_awesome_triangle._A # Returns the degrees of the angle between sides b,c (opposite of side a)
+  ```
+  ```py
+  My_awesome_triangle._B # Returns the degrees of the angle between sides a,c (opposite of side b)
+  ```
+  ```py
+  My_awesome_triangle._C # Returns the degrees of the angle between sides a,b (opposite of side C)
+  ```
 ### Triangle methods
 
 These methods would need to be tested at least once:
