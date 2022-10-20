@@ -22,9 +22,13 @@ class TestTriangle(unittest.TestCase):
         Triangle calculator for cross reference: https://www.calculator.net/triangle-calculator.html
     '''
     def test_line_30(self):
+        # Hint: Test that the code fails for negative lengths:
+        # Check the assertRaises example from the README.
         pass
     
-    def test_line_32(self):
+    def test_line_32(self): 
+        # Hint: Test that the code fails for invalid angles:
+        # Check the assertRaises example from the README.
         pass
     
     def test_triangle_area(self):
