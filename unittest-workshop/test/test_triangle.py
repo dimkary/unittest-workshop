@@ -11,8 +11,6 @@ class TestTriangle(unittest.TestCase):
     '''
     Define all the tests you wish to write below
 
-    Functions:
-
     Think about:
         - Have I covered all the lines that need to be covered ?
         - Are my tests thorough enough to cover all edge cases ?
