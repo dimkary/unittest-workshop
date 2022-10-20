@@ -15,7 +15,6 @@ class TestTriangle(unittest.TestCase):
         - Have I covered all the lines that need to be covered ?
         - Are my tests thorough enough to cover all edge cases ?
         - What kind of assertions are needed to cover my tests ?
-        - My initial coverage is too high for not having done nothing (61%!).
         Does that make sense? If not what is the reason behind that?
 
         Feel free to copy and amend tests from test_square or test_circle :-)
