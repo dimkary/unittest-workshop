@@ -36,7 +36,7 @@ After adding new tests we want to check if they are implemented succesfully, and
 In the **test_triangle** file, there are already 2 triangles, enough to test all the functionality of the library. These are the *right_Triangle* and *equilateral_Triangle*, for which you can check their geometry below. It is possible to create new triangles for your test if you wish.
 <div align="center">
   <a>
-    <img src="images/sample_triangles.png" alt="sample triangles" align="center"  width="600" height="250">
+    <img src="images/sample_triangles.png" alt="sample triangles" align="center"  width="500" height="250">
   </a>
 </div>
 
