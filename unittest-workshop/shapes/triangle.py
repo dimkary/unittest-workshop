@@ -54,10 +54,24 @@ class Triangle(Shape):
         self._B = 180 - self._A - self._C
 
     def area(self) -> float:
+        '''
+        Returns the area of two triangle.
+
+                Parameters: -
+                Returns:
+                        area (float): Area of the triangle
+        '''        
         s = (self._a + self._b + self._c) / 2
         return math.sqrt(s*(s-self._a)*(s-self._b)*(s-self._c))
 
     def perimeter(self) -> float:
+        '''
+        Returns the sum the anles of the triangle.
+
+                Parameters: -
+                Returns:
+                        perimeter (float): Sum of all the sides of the triangle
+        '''        
         return self._a + self._b + self._c
 
     def isRight(self):
