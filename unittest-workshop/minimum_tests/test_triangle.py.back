@@ -4,22 +4,22 @@ from shapes.triangle import Triangle
 
 class TestTriangle(unittest.TestCase):
 
-    default_Triangle = Triangle(1, 2, 60) 
+    right_Triangle = Triangle(1, 2, 60) 
     equilateral_Triangle = Triangle(1, 1, 60)
 
     def test_area_triangle(self):
         self.assertAlmostEqual(
-            self.default_Triangle.area(), 0.8660, places=3
+            self.right_Triangle.area(), 0.8660, places=3
         )
 
     def test_perimeter_triangle(self):
         self.assertAlmostEqual(
-            self.default_Triangle.perimeter(), 4.73205, places=3
+            self.right_Triangle.perimeter(), 4.73205, places=3
         )
 
     def test_right(self):
         self.assertTrue(
-            self.default_Triangle.isRight()
+            self.right_Triangle.isRight()
         )
 
     def test_equilateral(self):
