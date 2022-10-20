@@ -47,7 +47,7 @@ In order to construct your triangle using the Triangle class, you need to provid
 
 <div align="center">
   <a>
-    <img src="images/how_to.jpg" alt="Triangle construction" align="center"  width="625" height="250">
+    <img src="images/how_to.jpg" alt="Triangle construction" align="center"  width="550" height="250">
   </a>
 </div>
 
