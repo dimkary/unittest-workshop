@@ -24,21 +24,31 @@ class TestTriangle(unittest.TestCase):
     def test_line_30(self):
         # Hint: Test that the code fails for negative lengths:
         # Check the assertRaises example from the README.
+        # To create a Triangle with side lengths 2,1 and an angle of 45 between them use the following
+        # my_triangle = Triangle(2, 1, 45)
         pass
     
     def test_line_32(self): 
         # Hint: Test that the code fails for invalid angles:
         # Check the assertRaises example from the README.
+        # To create a Triangle with side lengths 2,1 and an angle of 45 between them use the following
+        # my_triangle = Triangle(2, 1, 45)
         pass
     
     def test_triangle_area(self):
+        # Hint: To use the area method from the right triangle try the following example:
+        # self.right_Triangle.area()
+        # Hint: Check the assertAlmostEqual example from the README
         pass
     
     def test_triangle_perimeter(self):
+        # Hint: Check the assertAlmostEqual or assertEqual examples from the README
         pass
     
     def test_triangle_isRight(self):
+        # Hint: Check the assertTrue example from the README
         pass
     
     def test_triangle_isEquilateral(self):
+        # Hint: Check the assertTrue example from the README
         pass
