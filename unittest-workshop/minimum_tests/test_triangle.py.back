@@ -3,34 +3,48 @@ from shapes.triangle import Triangle
 
 
 class TestTriangle(unittest.TestCase):
+    
+    # Sample triangles from the document
+    right_Triangle = Triangle(1, 2, 60)  # length c ~ 1.73205, area ~0.86603
+    equilateral_Triangle = Triangle(1, 1, 60) # length c ~ 1, area ~0.43301
 
-    right_Triangle = Triangle(1, 2, 60) 
-    equilateral_Triangle = Triangle(1, 1, 60)
+    '''
+    Define all the tests you wish to write below
 
-    def test_area_triangle(self):
-        self.assertAlmostEqual(
-            self.right_Triangle.area(), 0.8660, places=3
-        )
+    Think about:
+        - Have I covered all the lines that need to be covered ?
+        - Are my tests thorough enough to cover all edge cases ?
+        - What kind of assertions are needed to cover my tests ?
+        Does that make sense? If not what is the reason behind that?
 
-    def test_perimeter_triangle(self):
-        self.assertAlmostEqual(
-            self.right_Triangle.perimeter(), 4.73205, places=3
-        )
+        Feel free to copy and amend tests from test_square or test_circle :-)
 
-    def test_right(self):
-        self.assertTrue(
-            self.right_Triangle.isRight()
-        )
-
-    def test_equilateral(self):
-        self.assertTrue(
-            self.equilateral_Triangle.isEquilateral()
-        )
-
-    def test_create_triangle_negative_length(self):
+        Triangle calculator for cross reference: https://www.calculator.net/triangle-calculator.html
+    '''
+    def test_line_30(self):
         with self.assertRaises(ValueError):
-            Triangle(-1, 1, 40)
-
-    def test_create_triangle_negative_angle(self):
+            traingle = Triangle(-1, 2, 45)
+    
+    def test_line_32(self):
         with self.assertRaises(ValueError):
-            Triangle(1, 1, -40)
+            traingle = Triangle(1, 2, -45)
+    
+    def test_triangle_area(self):
+        traingle = Triangle(1, 2, 60)
+        area = traingle.area()
+        self.assertAlmostEqual(area, 0.86603, places=3)
+    
+    def test_triangle_perimeter(self):
+        triangle = Triangle(1, 2, 60)
+        perimeter = triangle.perimeter()
+        self.assertAlmostEqual(perimeter, 4.732050807568877, places=3)
+    
+    def test_triangle_isRight(self):
+        triangle = Triangle(1, 2, 90)
+        isRight = triangle.isRight()
+        self.assertTrue(isRight, True)
+    
+    def test_triangle_isEquilateral(self):
+        triangle = Triangle(1, 2, 60)
+        isEqui = triangle.isEquilateral()
+        self.assertTrue(isEqui, True)
