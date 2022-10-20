@@ -27,10 +27,10 @@ class TestTriangle(unittest.TestCase):
             self.equilateral_Triangle.isEquilateral()
         )
 
-    def test_create_square_negative_length(self):
+    def test_create_triangle_negative_length(self):
         with self.assertRaises(ValueError):
             Triangle(-1, 1, 40)
 
-    def test_create_square_negative_angle(self):
+    def test_create_triangle_negative_angle(self):
         with self.assertRaises(ValueError):
             Triangle(1, 1, -40)
