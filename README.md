@@ -41,6 +41,17 @@ In the **test_triangle** file, there are already 2 triangles, enough to test all
 </div>
 
 ## Snippets
+### Constructor
+
+In order to construct your triangle using the Triangle class, you need to provide the length of **two sides** (a,b) and the angle between them. The third side and the other angles are automatically constructed:
+
+<div align="center">
+  <a>
+    <img src="images/how_to.png" alt="Triangle construction" align="center"  width="625" height="250">
+  </a>
+</div>
+
+**Note:** You can complete the exercise just by using the provided sample trianles (see above).
 ### Triangle methods
 
 These methods would need to be tested at least once:
