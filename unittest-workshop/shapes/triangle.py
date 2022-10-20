@@ -66,7 +66,7 @@ class Triangle(Shape):
 
     def perimeter(self) -> float:
         '''
-        Returns the sum the anles of the triangle.
+        Returns the sum of the sides' length of the triangle.
 
                 Parameters: -
                 Returns:
@@ -75,9 +75,23 @@ class Triangle(Shape):
         return self._a + self._b + self._c
 
     def isRight(self):
+        '''
+        Returns True if one of the angles is 90 degrees.
+
+                Parameters: -
+                Returns:
+                        isRight (bool): True if one of the angles is 90 degrees, else False
+        '''
         return True in [round(x, 4) == 90 for x in [self._A, self._B, self._C]]
 
     def isEquilateral(self):
+        '''
+        Returns True if all the angles are 60 degrees.
+
+                Parameters: -
+                Returns:
+                        isEquilateral (bool): True if all the angles are 60 degrees
+        '''
         angles = [round(x, 4)
                   for x in (self._A, self._B, self._C)]
         return angles[0] == angles[1] == angles[2] == 60
